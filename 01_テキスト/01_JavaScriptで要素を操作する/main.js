@@ -28,9 +28,9 @@ elementClassList.classList.add("great-element")
 
 // 要素を追加する - appendChild
 const elementAppendChild = document.getElementById("element-appendChild")
-const div1 = document.createElement("div")
-div1.textContent = "こんばんは"
-elementAppendChild.appendChild(div1)
+const div = document.createElement("div")
+div.textContent = "こんばん"
+elementAppendChild.appendChild(div)
 
 // 要素を追加する - 最新の方法
 const elementPrepend = document.getElementById("element-prepend")
